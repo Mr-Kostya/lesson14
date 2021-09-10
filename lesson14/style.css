@@ -1,0 +1,55 @@
+.slider {
+    position: relative;
+    width: 384px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+
+.pointer {
+    border-style: none;
+    position: absolute;
+    height: 100px;
+    top: 60px;
+    padding: 0;
+    background: yellow;
+    font-size: 24px;
+    color: white;
+    display: block;
+}
+
+.pointer:hover {
+    background: orangered;
+    cursor: pointer;
+}
+
+.before {
+    left: 10px;
+}
+
+.after {
+    right: 10px;
+}
+
+.slider img {
+    width: 128px;
+}
+
+.carousel {
+    width: 384px;
+    overflow: hidden;
+}
+
+.carousel ul {
+    margin: 0;
+    padding: 0;
+    height: 128px;
+    width: 3000px;
+    list-style: none;
+    font-size: 0;
+    transition: margin-left 400ms;
+}
+
+.carousel li {
+    display: inline-block;
+    margin-left: 1px;
+}
